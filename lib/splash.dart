@@ -30,13 +30,6 @@ class _SplashState extends State<Splash> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Image.asset("images/logo_completa.png"),
-            Text(
-              'Carregando...',
-              style: TextStyle(
-                fontSize: 22.0,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
             SizedBox(
               height: 5.0,
             ),

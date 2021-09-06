@@ -13,7 +13,7 @@
             "name": "flutter_application_1 (profile mode)",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "profile"
+            "flutterMode": "debug"
         }
     ]
 }
