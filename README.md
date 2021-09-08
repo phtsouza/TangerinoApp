@@ -4,7 +4,7 @@
 # <p align="center">Tangerino App</p>
 
 <h2>Inicializar projeto</h2> Para começar o projeto execute o comando "flutter run -d chrome --no-sound-null-safety --web-renderer=html"
-<h2>Descrição</h2>  Projeto desenvolvido para o processo seletivo da Tangerino, criação de um App, pelo qual é póssível realizar o monitoramento e controle em relação ao estado dos pontos que os funcionários se encontram dentro de uma empresa.
+<h2>Descrição</h2>  Projeto desenvolvido para o processo seletivo da Tangerino, criação de um App, pelo qual é possível realizar o monitoramento e controle em relação ao estado dos pontos que os funcionários se encontram dentro de uma empresa.
 <h4>Status do projeto: ✅Finalizado.</h4>
 
 ## Páginas
