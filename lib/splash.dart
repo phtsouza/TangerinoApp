@@ -34,7 +34,7 @@ class _SplashState extends State<Splash> {
               height: 5.0,
             ),
             CircularProgressIndicator(
-              valueColor: AlwaysStoppedAnimation(Colors.orange),
+              valueColor: AlwaysStoppedAnimation(Color(0xFFFF5F11)),
               strokeWidth: 11.0,
             ),
           ],

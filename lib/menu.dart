@@ -12,10 +12,10 @@ class Menu extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.orange,
+        backgroundColor: Color(0xFFFF5F11),
         title: Center(
           child: SizedBox(
-            width: 100,
+            width: 200,
             child: Text(
               "Funcionários",
               style: TextStyle(
@@ -93,49 +93,154 @@ class Menu extends StatelessWidget {
                 decimalPlaces: 1,
               ),
             ),
-            Text(
-              "15 - Presença registrada",
-              style: TextStyle(
-                backgroundColor: Colors.red,
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
-                fontSize: 26,
+            Container(
+              width: 200,
+              child: Card(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(15.0),
+                ),
+                color: Colors.red,
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const ListTile(
+                        title: Text('15',
+                            style:
+                                TextStyle(color: Colors.black, fontSize: 22)),
+                        subtitle: Text('Presença Registrada',
+                            style:
+                                TextStyle(color: Colors.black, fontSize: 18)),
+                      ),
+                    ],
+                  ),
+                ),
               ),
             ),
-            Text(
-              "5 - Sem presença",
-              style: TextStyle(
-                backgroundColor: Colors.blue,
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
-                fontSize: 26,
+            Container(
+              width: 200,
+              child: Card(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(15.0),
+                ),
+                color: Colors.blue,
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const ListTile(
+                        title: Text('5',
+                            style:
+                                TextStyle(color: Colors.black, fontSize: 22)),
+                        subtitle: Text('Sem Presença',
+                            style:
+                                TextStyle(color: Colors.black, fontSize: 18)),
+                      ),
+                    ],
+                  ),
+                ),
               ),
             ),
-            Text(
-              "10 - Pontos Abertos\n5 - Pontos Fechados",
-              style: TextStyle(
-                backgroundColor: Colors.red,
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
-                fontSize: 26,
+            Container(
+              width: 200,
+              child: Card(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(15.0),
+                ),
+                color: Colors.red,
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const ListTile(
+                        title: Text('10',
+                            style:
+                                TextStyle(color: Colors.black, fontSize: 22)),
+                        subtitle: Text('Ponto Aberto',
+                            style:
+                                TextStyle(color: Colors.black, fontSize: 18)),
+                      ),
+                    ],
+                  ),
+                ),
               ),
             ),
-            Text(
-              "20 - Colaboradores ativos",
-              style: TextStyle(
-                backgroundColor: Colors.orange,
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
-                fontSize: 26,
+            Container(
+              width: 200,
+              child: Card(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(15.0),
+                ),
+                color: Colors.red,
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const ListTile(
+                        title: Text('5',
+                            style:
+                                TextStyle(color: Colors.black, fontSize: 22)),
+                        subtitle: Text('Ponto Fechado',
+                            style:
+                                TextStyle(color: Colors.black, fontSize: 18)),
+                      ),
+                    ],
+                  ),
+                ),
               ),
             ),
-            Text(
-              "1 - Em Hora Extra",
-              style: TextStyle(
-                backgroundColor: Colors.green,
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
-                fontSize: 26,
+            Container(
+              width: 200,
+              child: Card(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(15.0),
+                ),
+                color: Colors.green,
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const ListTile(
+                        title: Text('1',
+                            style:
+                                TextStyle(color: Colors.black, fontSize: 22)),
+                        subtitle: Text('Em Férias',
+                            style:
+                                TextStyle(color: Colors.black, fontSize: 18)),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            Container(
+              width: 200,
+              child: Card(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(15.0),
+                ),
+                color: Colors.green,
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const ListTile(
+                        title: Text('1',
+                            style:
+                                TextStyle(color: Colors.black, fontSize: 22)),
+                        subtitle: Text('Com Hora Extra',
+                            style:
+                                TextStyle(color: Colors.black, fontSize: 18)),
+                      ),
+                    ],
+                  ),
+                ),
               ),
             ),
           ],

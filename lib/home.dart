@@ -16,7 +16,7 @@ class _HomeState extends State<Home> {
           left: 40,
           right: 40,
         ),
-        color: Colors.orange,
+        color: Color(0xFFFF5F11),
         child: ListView(
           children: <Widget>[
             SizedBox(
@@ -32,7 +32,7 @@ class _HomeState extends State<Home> {
               decoration: InputDecoration(
                 labelText: "E-mail",
                 labelStyle: TextStyle(
-                  color: Colors.black38,
+                  color: Colors.black,
                   fontWeight: FontWeight.w400,
                   fontSize: 20,
                 ),
@@ -48,7 +48,7 @@ class _HomeState extends State<Home> {
               decoration: InputDecoration(
                 labelText: "Senha",
                 labelStyle: TextStyle(
-                  color: Colors.black38,
+                  color: Colors.black,
                   fontWeight: FontWeight.w400,
                   fontSize: 20,
                 ),
